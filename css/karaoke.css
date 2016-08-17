@@ -18,7 +18,7 @@ body {
   font-weight: bold;
   -webkit-text-stroke: 0.05em black;
   position: absolute;
-  bottom: 10%;
+  bottom: 0;
   width: 100%;
 
   white-space: nowrap
