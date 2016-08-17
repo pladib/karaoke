@@ -6,6 +6,7 @@ body {
 .karaoke-container {
   background-color: rgb(15, 88, 99);
   background-size: cover;
+  background-position: center center;
   position: relative;
   height: 100vh;
 }
