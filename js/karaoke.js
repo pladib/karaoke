@@ -11,4 +11,12 @@ $(document).ready(function () {
   $('input#progress-slider').on('input', function() {
     $('.lyric-slider').css("width", $(this).val()+"%");
   });
+  $('#download').click(function(){
+    domtoimage.toJpeg(document.getElementById('karaoke-container'), { quality: 0.95 }) .then(function (dataUrl) {
+            var link = document.createElement('a');
+            link.download = 'my-image-name.jpeg';
+            link.href = dataUrl;
+            link.click();
+        });
+  });
 });
