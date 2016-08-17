@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.karaoke-container {
+  background-color: rgb(15, 88, 99);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.lyric-section {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke: 0.05em black;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+
+  white-space: nowrap
+}
+
+.control-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+
+.control-container > * {
+  margin: 20px;
+}
+
+.control-container > input {
+  width: 200px;
+  height: 20px;
+}
+
+.lyric-container {
+  width: 100%;
+  position: relative;
+  height: 1.6em;
+}
+.lyric-container > div {
+  position: absolute;
+}
+
+
+.lyric {
+  width: 100vw;
+  line-height: 1.8em;
+}
+
+.lyric.-thai {
+}
+
+.lyric.-roman {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #ed712f;
+}
+
+.lyric.-overlay {
+  color: #3630f6;
+  text-shadow: 0.05em 0.05em 0.01em black;
+  -webkit-text-stroke: 0.025em white;
+}
+
+.lyric-slider {
+  width: 40%;
+  overflow-x: hidden;
+}
