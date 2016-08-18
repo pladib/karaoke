@@ -1,0 +1,21 @@
+{
+  "name": "karaoke",
+  "homepage": "https://github.com/jeepkd/karaoke",
+  "authors": [
+    "Jeep Kiddee <nutthawut.ki@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dom-to-image": "^2.5.1"
+  }
+}
