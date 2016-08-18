@@ -38,41 +38,42 @@ body {
   justify-content: center;
   align-items: center;
   height: 48px;
-}
 
-.control-container > * {
-  margin: 20px;
-}
+  > * {
+    margin: 20px;
+  }
 
-.control-container > input {
-  width: 200px;
-  height: 20px;
+  > input {
+    width: 200px;
+    height: 20px;
+  }
 }
 
 .lyric-container {
   width: 100%;
   position: relative;
   height: 1.6em;
-}
-.lyric-container > div {
-  position: absolute;
+
+  > div {
+    position: absolute;
+  }
 }
 
 .lyric {
   width: 100vw;
   line-height: 1.8em;
-}
 
-.lyric.-roman {
-  font-size: 0.6em;
-  text-transform: uppercase;
-  color: #ed712f;
-}
+  &.-roman {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    color: #ed712f;
+  }
 
-.lyric.-overlay {
-  color: #3630f6;
-  text-shadow: 0.05em 0.05em 0.01em black;
-  -webkit-text-stroke: 0.025em white;
+  &.-overlay {
+    color: #3630f6;
+    text-shadow: 0.05em 0.05em 0.01em black;
+    -webkit-text-stroke: 0.025em white;
+  }
 }
 
 .lyric-slider {
