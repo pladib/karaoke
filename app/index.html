@@ -41,7 +41,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <form class="navbar-form navbar-right">
-            <button type="button" class="btn btn-primary">Upload Image</button>
+            <div class="form-group">
+              <input id="img-upload" type="file" name="Upload your image here" >
+            </div>
             <div class="form-group">
               <input
               type="text"
@@ -56,7 +58,11 @@
               class="form-control"
               value="rak-chan-yang-yu-tae-mai-ru-ter-tong-karn-mai">
             </div>
-            <button type="button" class="btn btn-success">Save As</button>
+            <div class="form-group">
+              <input id="progress-slider" type="range" value="40">
+            </div>
+
+            <button id="download" type="button" class="btn btn-success">Save As</button>
           </form>
 
         </div>
@@ -65,7 +71,7 @@
       <!-- /.container -->
     </nav>
 
-    <div class="full">
+    <div id="karaoke-container" class="full">
       <div class="lyric-section">
         <div class="lyric-container">
           <div class="lyric -thai">
@@ -111,6 +117,7 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="/bower_components/dom-to-image/dist/dom-to-image.min.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
