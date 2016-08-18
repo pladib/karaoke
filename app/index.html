@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>คาราโอเกะ</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">คาราโอเกะ</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input id="img-upload" type="file" name="Upload your image here" >
+            </div>
+            <div class="form-group">
+              <input
+              type="text"
+              id="lyric-thai"
+              class="form-control"
+              value="รักฉันยังอยู่ แต่ไม่รู้เธอต้องการไหม">
+            </div>
+            <div class="form-group">
+              <input
+              type="text"
+              id="lyric-roman"
+              class="form-control"
+              value="rak-chan-yang-yu-tae-mai-ru-ter-tong-karn-mai">
+            </div>
+            <div class="form-group">
+              <input id="progress-slider" type="range" value="40">
+            </div>
+
+            <button id="download" type="button" class="btn btn-success">Save As</button>
+          </form>
+
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <div id="karaoke-container" class="full">
+      <div class="lyric-section">
+        <div class="lyric-container">
+          <div class="lyric -thai">
+            รักฉันยังอยู่ แต่ไม่รู้เธอต้องการไหม
+          </div>
+
+          <div class="lyric-slider">
+              <div class="lyric -thai -overlay">
+                รักฉันยังอยู่ แต่ไม่รู้เธอต้องการไหม
+              </div>
+          </div>
+        </div>
+
+        <div class="lyric-container">
+          <div class="lyric -roman">
+            rak-chan-yang-yu-tae-mai-ru-ter-tong-karn-mai
+          </div>
+          <div class="lyric-slider">
+              <div class="lyric -roman -overlay">
+                rak-chan-yang-yu-tae-mai-ru-ter-tong-karn-mai
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="/bower_components/dom-to-image/dist/dom-to-image.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
